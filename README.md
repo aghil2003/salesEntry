@@ -25,16 +25,17 @@ This project is divided into two main parts located in the `development` branch:
 
 cd backend
 npm install
-🛠 Setup Environment
+
+##Setup Environment
 Create a .env file:
 
 ## env
 
-DB_NAME=sales_db
-DB_USER=root
-DB_PASSWORD=yourpassword
-DB_HOST=localhost
-PORT=5000
+DB_NAME=sales_db,
+DB_USER=root,
+DB_PASSWORD=yourpassword,
+DB_HOST=localhost,
+PORT=5000,
 
 ## Run Migrations
 npx sequelize-cli db:migrate
